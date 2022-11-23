@@ -90,3 +90,37 @@ For each line list used, specify:
 8.  user notes (optional)
 
 
+
+## Data validation report
+
+### Requirements for data validation
+
+
+* A few representative samples of your raw data. Though it is not a requirement to submit the full dataset initially, we do ask for a few representative cases that complement the plots submitted. These files should follow the eventual data format requirements.
+* Representative plots that showcase the data. It is up to your discretion how these should be made. Note that the team will want to assess the native resolution of the data, to some degree. For example, you could provide native high resolution opacities across bands of interest, and low resolution plots at R~100-1000 across a wide wavelength range 
+* If only a certain wavelength range, or pressure-temperature profile is included in the submission for an existing dataset, then validation is required at the edges. E.g. at the temperature transition, or at the wavelength transition.
+
+
+### Optional Recommendations for data validation
+
+Here are some general guidelines that can help guide your submission: 
+
+* If there is existing data that you wish to overwrite with a new dataset, please provide a direct comparison between what we have and your new calculation. Any differences should be scientifically motivated. 
+* If there is no data for a specific molecule, sufficiently detailed methodology should be provided to convince the team the calculation is valid. Additionally, other data sources available through other providers or platforms can also be used as comparison (even if they are only provided at lower resolution, for example)
+* A comparison should be made at the native resolution of the computed data 
+
+## Data formats and units for sample data
+
+* One file (ascii or other) for each pressure-temperature combination that contains all wavenumbers associated with the calculation
+* One file that analogous to [grid1460.csv on Zenodo ](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y)that contains the pressure-temperature grid, and any information regarding the wavelength grid 
+* Data should be in units of cm2/species 
+
+## Submission 
+
+* Metadata json file can be uploaded to the Github issues ticket
+* Link to sample data can be uploaded to the Github issues ticket 
+* Pdf or markdown of the data validation report can be uploaded to the Github issues ticket
+
+## Feedback 
+
+New data submissions will also be reviewed on a monthly cadence that coincide with team meetings. Expect to receive written feedback through Github Issue within 3-4 weeks.  
