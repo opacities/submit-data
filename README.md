@@ -1,4 +1,4 @@
-# Contributor Guidelines
+# Data Contributor Guidelines
 
 The goal of MAESTRO is to create a repository of opacity data that is reproducible and validated. 
 
@@ -42,15 +42,16 @@ We want to highlight all data contributors beyond the citations. We follow the [
 
 ## The Team
 
-- Natasha Batalha (NASA Ames) [logo](https://nasa.github.io/openmct/static/res/images/logo-NASA-Silicon-Valley.png)
-- Nikole Lewis (Cornell University) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/cornell.png)
-- Ehsan Gharib-Nezhad (NASA Ames) [logo](https://nasa.github.io/openmct/static/res/images/logo-NASA-Silicon-Valley.png)
-- Katy Chubb (University of St Andrews) [logo](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/University_of_St_Andrews_arms.svg/1200px-University_of_St_Andrews_arms.svg.png)
-- Richard Freedman (SETI) [logo](https://upload.wikimedia.org/wikipedia/en/e/ed/SETI_Logotype_RGB_reduced_res.png)
-- Iouli Gordon (HITRAN/Harvard) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/hitran.png)
-- Rob Hargreaves (HITRAN/Harvard) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/hitran.png)
-- Ryan MacDonald (Cornell University) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/cornell.png)
-- Clara Sousa-Silva (Bard College) [logo](https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Bard_College_Seal.svg/800px-Bard_College_Seal.svg.png)
-- Jonathan Tennyson (ExoMol/University College London) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/exomol.png)
-- Jeff Valenti (STScI) [logo](http://www.stsci.edu/modules/stsci-www-assets/assets/favicons/android-chrome-256x256.png)
-- Sergey Yurchenko (ExoMol/University College London) [logo](https://github.com/natashabatalha/natashabatalha.github.io/blob/master/maestro/Images/exomol.png)
+- Natasha Batalha (NASA Ames) 
+- Nikole Lewis (Cornell University) 
+- Ehsan Gharib-Nezhad (NASA Ames) 
+- Katy Chubb (University of St Andrews)
+- Richard Freedman (SETI) 
+- Iouli Gordon (HITRAN/Harvard) 
+- Rob Hargreaves (HITRAN/Harvard) 
+- Clara Sousa-Silva (Bard College)
+- Jonathan Tennyson (ExoMol/University College London) 
+- Jeff Valenti (STScI) 
+- Sergey Yurchenko (ExoMol/University College London)
+- Ryan MacDonald (University of Michigan) 
+
