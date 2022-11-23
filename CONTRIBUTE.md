@@ -124,3 +124,41 @@ Here are some general guidelines that can help guide your submission:
 ## Feedback 
 
 New data submissions will also be reviewed on a monthly cadence that coincide with team meetings. Expect to receive written feedback through Github Issue within 3-4 weeks.  
+
+
+
+
+# Step 3: Final data transfer 
+
+Once all feedback has been incorporated, we will move to the final data transfer! 
+
+
+## Data formats and units from original sample
+
+* One file (ascii or other) for each pressure-temperature combination that contains all wavenumbers associated with the calculation
+* One file that analogous to [grid1460.csv on Zenodo ](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y)that contains the pressure-temperature grid, and any information regarding the wavelength grid 
+* Data should be in units of cm2/species 
+
+
+## Data transfer
+
+We accept any method of data transfer (e.g. google, box, institutional websites). If you need resources for this (e.g. box space) please let us know and we will assist you. 
+
+
+## Journey of the data 
+
+Your data will be pushed to the SQL database hosted at NASA Ames within a couple weeks, where anyone will be able to access and download it.  
+
+
+## Erratum 
+
+Any errors that are noted after the insert should be handled through the original Github issues posting. Please follow the steps: 
+
+1. Navigate to [closed issues on Github ](https://github.com/maestro-opacities/submit-data/issues?q=is%3Aissue+is%3Aclosed)
+2. Find your original data issue and reopen it 
+3. Describe the problem: 1) what molecule is affected, 2) what pressure-temperature range is affected, 3) what wavelength range is affected 
+4. Showcase the solution via plots and new sample data uploads 
+5. The MAESTRO team will review your report and provide any necessary feedback 
+6. If the erratum is approved, you will have to submit a new version to your Zenodo posting of the sample data. In the event where the data was tied to a published paper, please provide the erratum of the published paper instead. 
+7. Update your json file with the new DOI for the opacity calculation and resend the data 
+8. Your update will be pushed to SQL database ASAP. 
