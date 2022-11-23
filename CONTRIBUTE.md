@@ -62,7 +62,7 @@ You will need to submit a json file that includes the following information. [Yo
 3.  Citation for line profile citation
 4.  DOI for opacity bundle (if there is no paper associated with the data, then we will require you to post a sample of the data to Zenodo _<span style="text-decoration:underline;">after</span>_ we have approved your data addition. This is for your own benefit so that users can explicitly cite your work! 
 5.  Wavelength grid used. Alternatively if you used a variable grid such as the one shown here [grid1460.csv](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y) you can provide a file.
-6.  File formatting statement: e.g., C2H2_T{temperature:.0f}_P{pressure:.4e}.xsec [see python string literals tutorial](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals). This allows us to easily build your file names. If you do not know python we can assist with this. 
+6.  File formatting statement: e.g., `C2H2_T{temperature:.0f}_P{pressure:.4e}.xsec` [see python string literals tutorial](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals). This allows us to easily build your file names. If you do not know python we can assist with this. 
 7.  File read statement in python: e.g. np.fromfile(filename) where result would be a 1d array of cross sections. If you do not know python we can assist with this. 
 
 **Broadener Info**
