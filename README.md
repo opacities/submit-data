@@ -29,7 +29,7 @@ As such, our data contribution process operates much like the traditional peer r
 
 The three basic steps to contribute are : 
 
-1. Submit a data inquiry by opening a [Github Issue here](https://github.com/maestro-opacities/submit-data/issues/new/choose) [see full instructions](https://github.com/maestro-opacities/submit-data/blob/main/CONTRIBUTE.md#step-1-submit-inquiry)
+1. Submit a data inquiry by opening a [Github Issue here.](https://github.com/maestro-opacities/submit-data/issues/new/choose) [see full instructions](https://github.com/maestro-opacities/submit-data/blob/main/CONTRIBUTE.md#step-1-submit-inquiry)
 2. Following our team's feedback, submit a sample data. This acts much like a peer review. [see full instructions](https://github.com/maestro-opacities/submit-data/blob/main/CONTRIBUTE.md#step-2-submit-sample-for-data-peer-review)
 3. Following our open data peer review, submit the full dataset and meta data. [see full instructions](https://github.com/maestro-opacities/submit-data/blob/main/CONTRIBUTE.md#step-3-final-data-transfer)
 
