@@ -41,16 +41,52 @@ If you are given a "proceed", you will also receive a set of requirements & sugg
 2. Calculations are at a minimum wavenumber spacing as the [grid1460.csv on Zenodo as an example of our ideal 1460 P-T Grid](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y). However, we recognize this will not always be possible. 
 
 
-## Step 2: Submit sample for “data peer review”
+# Step 2: Submit sample for “data peer review”
 
 Your data submission sample will consist of metadata, sample data, and a data validation report. Our process for data submission is completely open, and the review will take place via Github Issues. There are three components of the data submission: 
-
-
 
 1. Metadata: this tells us how the data was computed, and with what source data
 2. Data sample: this shows us what format your data is in and ensures a seamless integration into our database 
 3. Data validation report: this is a collection of simple plots that demonstrates the validity of the data 
 
-See below for further descriptions of these components
+See below for further descriptions of these components. 
+
+## Metadata
+
+You will need to submit a json file that includes the following information. [You can see examples of previously submitted files here](https://github.com/maestro-opacities/submit-data/tree/main/examples/metadata). The basic information we request is as follows:
+
+**Calculation Info**
+
+1.  Intensity cutoff used
+2.  Wing cutoff used
+3.  Citation for line profile citation
+4.  DOI for opacity bundle (if there is no paper associated with the data, then we will require you to post a sample of the data to Zenodo _<span style="text-decoration:underline;">after</span>_ we have approved your data addition. This is for your own benefit so that users can explicitly cite your work! 
+5.  Wavelength grid used. Alternatively if you used a variable grid such as the one shown here [grid1460.csv](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y) you can provide a file.
+6.  File formatting statement: e.g., C2H2_T{temperature:.0f}_P{pressure:.4e}.xsec [see python string literals tutorial](https://docs.python.org/3/tutorial/inputoutput.html#formatted-string-literals). This allows us to easily build your file names. If you do not know python we can assist with this. 
+7.  File read statement in python: e.g. np.fromfile(filename) where result would be a 1d array of cross sections. If you do not know python we can assist with this. 
+
+**Broadener Info**
+
+For each broadener agent used (e.g. if H2, He mixture used), specify:
+
+1.  broadener mixture (e.g. 14 % H2)
+2.  calculation type (see options)
+3.  functional form, if applied
+4.  citation DOI for broadener info
+5.  user warning (see options)
+6.  user notes (optional)
+
+**Line List Info **
+
+For each line list used, specify:
+
+1.  min wno used
+2.  max wno used
+3.  min temp applied to
+4.  max temp applied to
+5.  database name (e.g. AYT2 ExoMol, version 20160726)
+6.  linelist DOI
+7.  user warning (see options)
+8.  user notes (optional)
 
 
