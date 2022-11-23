@@ -41,4 +41,16 @@ If you are given a "proceed", you will also receive a set of requirements & sugg
 2. Calculations are at a minimum wavenumber spacing as the [grid1460.csv on Zenodo as an example of our ideal 1460 P-T Grid](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y). However, we recognize this will not always be possible. 
 
 
+## Step 2: Submit sample for “data peer review”
+
+Your data submission sample will consist of metadata, sample data, and a data validation report. Our process for data submission is completely open, and the review will take place via Github Issues. There are three components of the data submission: 
+
+
+
+1. Metadata: this tells us how the data was computed, and with what source data
+2. Data sample: this shows us what format your data is in and ensures a seamless integration into our database 
+3. Data validation report: this is a collection of simple plots that demonstrates the validity of the data 
+
+See below for further descriptions of these components
+
 
