@@ -3,7 +3,7 @@
         "mol": "PH3",
         "iso_mol": "31P-1H3",
         "iso_abundance": "1",
-        "bibid_iso_abundance":"\\cite{INSERT}",
+        "bibid_iso_abundance":"\\cite{INSERT DOI}",
         "ptid": "REPLACE",
         "temperature": "REPLACE",
         "pressure": "REPLACE",
