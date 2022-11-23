@@ -76,7 +76,7 @@ For each broadener agent used (e.g. if H2, He mixture used), specify:
 5.  user warning (see options)
 6.  user notes (optional)
 
-**Line List Info **
+**Line List Info**
 
 For each line list used, specify:
 
@@ -112,7 +112,7 @@ Here are some general guidelines that can help guide your submission:
 ## Data formats and units for sample data
 
 * One file (ascii or other) for each pressure-temperature combination that contains all wavenumbers associated with the calculation
-* One file that analogous to [grid1460.csv on Zenodo ](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y)that contains the pressure-temperature grid, and any information regarding the wavelength grid 
+* One file that analogous to [grid1460.csv on Zenodo](https://zenodo.org/record/4458189#.Y2Kyb-zMI8Y)that contains the pressure-temperature grid, and any information regarding the wavelength grid 
 * Data should be in units of cm2/species 
 
 ## Submission 
